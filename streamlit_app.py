@@ -4,7 +4,8 @@ import re
 import pandas as pd
 import streamlit as st
 import os
-os.system("playwright install chromium")from playwright.async_api import async_playwright
+os.system("playwright install chromium")
+from playwright.async_api import async_playwright
 from geopy.geocoders import Nominatim
 from urllib.parse import quote
 import json
